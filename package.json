@@ -1,0 +1,35 @@
+{
+  "name": "project",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "babel-core": "^6.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "webpack": "^2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
